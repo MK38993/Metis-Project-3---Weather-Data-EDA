@@ -12,3 +12,5 @@ Using Google Sheets, I plotted both metrics in histograms, shown below.
 
 
 The Google Sheets workbook can be found [here](https://docs.google.com/spreadsheets/d/1nEpWryGVV7GDp94dv2SXPU-1ok_Ux9DTsskVSSVWoEs/edit?usp=sharing).
+
+EDIT: Wind speed is incorrectly labeled 'mph' - it should be m/s. Whoops.
