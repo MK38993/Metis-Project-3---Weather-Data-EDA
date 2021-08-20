@@ -4,8 +4,7 @@
 
 ## Abstract
 
-For this project, I analyzed California weather data in order to find the best locations to create wind farms.
-
+For this project, I analyzed California weather data in order to find the best locations to create wind farms. Using data provided by the National Oceanic and Atmospheric Administration (NOAA), I conducted exploratory data analysis, using Google Sheets to derive key metrics such as a turbine's average power output, and therefore, its profitability. After calculating all relevant metrics, I built an interactive dashboard with Tablaeu to communicate my findings.
 
 
 ## Design
@@ -17,8 +16,11 @@ I downloaded all weather data for 2020 from the NOAA's website, discarding all n
 
 The resulting dataset had 1,348,152 datapoints, so I used Pandas to average wind speed for each day.
 
+Relevant metrics include location, date, elevation, and wind speed.
+
 
 ## Algorithms
+
 1. Looping through 13570 CSV files, discarding null values, irrelevant features, and any files outside of a rectangular box surrounding California.
 
 2. Using the Google Maps reverse geocoding API to assign an address to remaining stations that might be in California, and keeping only California data.
@@ -45,7 +47,7 @@ No models were used for exploratory data analysis.
 - Tablaeu for data visualization
 
 ## Communication
-I constructed an easily-modified [Tablaeu](https://public.tableau.com/app/profile/matt.k1804/viz/CaliforniaWindData/AtmosphericMetrics?publish=yes"......") workbook for sorting locations by wind speed/annual revenue.
+The [Tablaeu](https://public.tableau.com/app/profile/matt.k1804/viz/CaliforniaWindData/AtmosphericMetrics?publish=yes"......") dashboard can be found here, and can be adjusted to reveal windiest/most profitable locations in ascending/descending order.
 
 
 
