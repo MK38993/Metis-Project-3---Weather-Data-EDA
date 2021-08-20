@@ -44,6 +44,8 @@ No models were used for exploratory data analysis.
 
 - Tablaeu for data visualization
 
+## Communication
+I constructed an easily-modified [Tablaeu](https://public.tableau.com/app/profile/matt.k1804/viz/CaliforniaWindData/AtmosphericMetrics?publish=yes"......") workbook for sorting locations by wind speed/annual revenue.
 
 
 
