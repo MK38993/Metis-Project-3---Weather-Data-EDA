@@ -1,0 +1,18 @@
+1. Wrote a python script to discard all data other than station#, date, location, and wind data
+	- No, I didn't use Pandas. Or Numpy. Just python's basic file system. I'm not going to sort through 50GB of data with Google Sheets only to throw out most of it. I'm doing THAT with Python.
+
+2. Discarded all null values with basic Python. Again.
+
+3. Split WND into direction and speed values
+
+4. Split DATE into month, day, time
+
+5. Discarded all values outside of California.
+
+6. Created a second table with station ID, latitude, and longitude.
+
+7. Cut lat and lng values out of main table
+
+8. Took average wind speed for each day for each station. 
+
+9. Imported both tables into Google Sheets
